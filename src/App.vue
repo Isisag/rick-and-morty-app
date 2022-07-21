@@ -1,18 +1,18 @@
 <template>
- <div>
+  <div class="app">
     <NavBar />
- </div>
+  </div>
 </template>
 
 <script>
 // import "./style/index.scss"
 // import style from './style/index.scss'
-import NavBar from './components/navbar/index.vue'
+import NavBar from "./components/navbar/index.vue";
 export default {
   components: {
-    NavBar
-  }
-}
+    NavBar,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -22,6 +22,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: fit-content;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  height: fit-content;
 }
 
 /* nav {
